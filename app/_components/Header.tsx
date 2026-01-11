@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <header className="sticky top-0 py-4">
             <Section className="flex items-baseline">
-                <h1 className="text-2xl font-bold text-secondary">Audrey EBROTIE</h1>
+                <h1 className="text-3xl font-bold text-foreground">Audrey EBROTIE</h1>
                 <div className="flex-1" />
                 <ul className="flex items-center gap-2">
                     <Link className={cn(buttonVariants({ variant: "ghost", size: "sm" }), "size-6 p-0")} href="https://github.com/audreyebrotie" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
